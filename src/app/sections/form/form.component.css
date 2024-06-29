@@ -67,12 +67,18 @@ form button {
   padding: 20px;
   background-color: #ffffff;
   border-radius: 20px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  /* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); */
   max-width: 1200px;
+  /* 1200 */
   width: 100%;
   flex-wrap: wrap;
-  margin-right: 96px;
+  /* margin-right: 96px; */
 
+}
+@media(max-width = 576px) {
+  .container {
+    margin-right:0;
+}
 }
 
 .form-container {

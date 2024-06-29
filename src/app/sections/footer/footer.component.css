@@ -69,14 +69,15 @@ ul li a {
 
 
 .copy-Rights {
-  display: flex;
+display: flex;
 justify-content: space-between;
-width: 50%;
+width: 70%;
 margin: auto;
 flex-wrap: wrap;
 }
 .copy-Rights p {
   color:rgba(51, 49, 44, 60%);
+
 }
 .right {
   display: flex;
