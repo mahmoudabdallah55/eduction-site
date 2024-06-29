@@ -1,0 +1,37 @@
+<nav class="navbar navbar-expand-sm navbar-light" [ngClass]="{'scroll-background': isScrolled}">
+  <div class="container-fluid navedit">
+      <a class="navbar-brand" href="#">
+          <img src="assets/images/logo.png" class="img-fluid" alt="القافله العالميه للتدريب">
+      </a>
+      <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="collapsibleNavId">
+          <ul class="navbar-nav m-auto mt-2 mt-lg-0 ">
+              <li class="nav-item">
+                  <a class="nav-link " href="#" aria-current="page" routerLinkActive="active">الرئيسية<span class="visually-hidden">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link " routerLink="/weare">من نحن</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="#lines">المسارات التدريبية</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link"routerLink="/trainers">المدربين </a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="#student-op ">اراء المدربين </a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" routerLink="/articles" >المقالات </a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" routerLink="/joinUs">اتصل بنا </a>
+              </li>
+          </ul>
+
+      </div>
+  </div>
+</nav>
+

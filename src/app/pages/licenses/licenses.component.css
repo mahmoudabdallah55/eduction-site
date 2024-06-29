@@ -1,0 +1,18 @@
+span
+{
+ color: black;
+}
+.usage-path {
+  color: #A5A5A5;
+
+}
+i {
+  color: #3F64AB;
+  font-size: 20px;
+}
+img {
+  border-radius: 5px;
+}
+.save span {
+  color: #FB9C46;
+}

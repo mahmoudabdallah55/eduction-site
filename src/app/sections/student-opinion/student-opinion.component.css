@@ -1,0 +1,106 @@
+.student-opinion {
+  margin: 30px 0 ;
+  padding: 20px;
+}
+.text-content h1 {
+  font-size: 36px;
+  font-weight: 700;
+  font-family: "Cairo";
+
+}
+.text-content h1 span {
+  color: rgba(63, 100, 171, 1);
+}
+.text-content p {
+  width: 60%;
+  margin-top: 32px;
+  font-size: 20px;
+  font-weight: 500;
+  color:rgba(138, 138, 138, 1);
+
+}
+
+ul {
+  display: flex;
+  align-items: center;
+}
+ul li {
+  margin: 0 5px;
+
+}
+ul li i  {
+color: rgba(250, 173, 19, 1);
+}
+.poinion p {
+  color:rgba(51, 49, 44, 1);
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+
+}
+
+.studen-profile {
+  display: flex;
+  align-items: center;
+}
+.student-data {
+  margin-right: 15px;
+}
+.student-data h4 {
+  color: rgba(51, 49, 44, 1);
+  font-weight: 700;
+  line-height: 24px;
+  margin-bottom: 2px;
+}
+
+.student-data p {
+  margin-bottom: 0;
+  font-weight: 500;
+
+}
+
+.silder-controls {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+
+
+}
+
+.controls-arow li {
+background-color: rgba(63, 100, 171, 1);
+padding: 10px 15px;
+border-radius: 12px;
+margin: 0 10px;
+
+}
+.controls-arow li.left {
+  background-color: rgba(194, 194, 194, 1);
+}
+.controls-arow li i {
+  color: white;
+  font-size: 16px;
+}
+
+.points {
+  display: flex;
+  align-items: center;
+
+}
+.points li {
+  padding: 5px;
+  background-color: rgba(226, 236, 244, 1);
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+.points li.active {
+  background-color: rgba(63, 100, 171, 1);
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
+}
+.trainer {
+  background-image: url(../../../assets/images/Vector55.png);
+  background-position: center;
+}

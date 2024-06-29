@@ -1,0 +1,26 @@
+.article_perview {
+  padding: 20px;
+}
+.path span  {
+ color:#A5A5A5;
+ font-weight: 500;
+}
+.path p {
+  color: #000000;
+  font-weight: 500;
+}
+.card-text{
+  color: #535355;
+  font-size: 20px;
+  line-height: 32px;
+}
+.card-title-left {
+  color:#A5A5A5;
+  font-weight: 700;
+  font-size: 20px;
+
+}
+.card{
+  border: none;
+
+}

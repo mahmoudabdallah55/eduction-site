@@ -1,0 +1,32 @@
+.container-fluid
+{
+    padding-left: 4.9%;
+    padding-right: 4.9%;
+}
+article .container-fluid .col-md-12
+{
+    padding: 0;
+}
+article .we
+{
+
+}
+article .we h1
+{
+    font-weight: 600;
+    font-size: 44px;
+}
+article .we .underline
+{
+    content: " ";
+    width: 136px;
+    height: 3px;
+    background-color: #3F64AB;
+    margin-top: 14px;
+    margin-bottom: 40px;
+}
+article .we p 
+{
+    font-weight: 400;
+    font-size: 24px;
+}
