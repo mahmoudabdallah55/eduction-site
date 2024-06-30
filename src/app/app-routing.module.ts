@@ -13,7 +13,7 @@ import { ArticlesPageComponent } from './pages/articles-page/articles-page.compo
 import { TeamComponent } from './pages/team/team.component';
 import { UsagePolicyComponent } from './pages/usage-policy/usage-policy.component';
 import { LicensesComponent } from './pages/licenses/licenses.component';
-
+import { ArticlesPagePreviewComponent } from './pages/articles-page-preview/articles-page-preview.component';
 const routes: Routes = [
   {
       path:'',
@@ -72,6 +72,14 @@ const routes: Routes = [
   {
     path:'documention',
     component:DocumentationComponent
+  },
+  {
+    path:'articles',
+    component:ArticlesPageComponent
+  },
+  {
+    path:'articles-perview',
+    component:ArticlesPagePreviewComponent
   },
 
 ];

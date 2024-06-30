@@ -32,6 +32,9 @@ import { TrainerComponent } from './pages/trainer/trainer.component';
 import { CoursesComponent } from './pages/courses/courses.component';
 import { WeAreComponent } from './pages/we-are/we-are.component';
 import { JionUSasCompanyComponent } from './pages/jion-usas-company/jion-usas-company.component';
+import { serviceLog } from './pages/team/team.service';
+import {  HttpClientModule} from "@angular/common/http"
+import { CommonModule } from '@angular/common';
 @NgModule({
   declarations: [
     AppComponent,
@@ -67,9 +70,11 @@ import { JionUSasCompanyComponent } from './pages/jion-usas-company/jion-usas-co
     AppRoutingModule,
     BrowserAnimationsModule,
     AccordionModule,
-    FormsModule
+    FormsModule,
+    HttpClientModule,
+    CommonModule
   ],
-  providers: [],
+  // providers: [serviceLog],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
