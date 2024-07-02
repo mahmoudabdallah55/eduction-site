@@ -14,6 +14,9 @@ export class DataService {
   getNewsData():Observable<any> {
     return this.http.get("http://51.20.43.250:8000/news/")
   }
+  getNewsDetials(id:string):Observable<any> {
+    return this.http.get(`http://51.20.43.250:8000/news/${id}/`)
+  }
 
 
 

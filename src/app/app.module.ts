@@ -55,7 +55,6 @@ import { CommonModule } from '@angular/common';
     ArticlesPageComponent,
     ArticlesPagePreviewComponent,
     UsagePolicyComponent,
-    TeamComponent,
     LicensesComponent,
     DocumentationComponent,
     JoinUsComponent,
@@ -64,6 +63,7 @@ import { CommonModule } from '@angular/common';
     CoursesComponent,
     WeAreComponent,
     JionUSasCompanyComponent,
+    TeamComponent,
   ],
   imports: [
     BrowserModule,

@@ -14,6 +14,9 @@ import { TeamComponent } from './pages/team/team.component';
 import { UsagePolicyComponent } from './pages/usage-policy/usage-policy.component';
 import { LicensesComponent } from './pages/licenses/licenses.component';
 import { ArticlesPagePreviewComponent } from './pages/articles-page-preview/articles-page-preview.component';
+import { TopRatedComponent } from './sections/top-rated/top-rated.component';
+import { ArticlesComponent } from './sections/articles/articles.component';
+
 const routes: Routes = [
   {
       path:'',
@@ -73,14 +76,19 @@ const routes: Routes = [
     path:'documention',
     component:DocumentationComponent
   },
+  // {
+  //   path:'articles-section',
+  //   component:ArticlesComponent
+  // },
   {
-    path:'articles',
-    component:ArticlesPageComponent
-  },
-  {
-    path:'articles-perview',
+    path:'articles-perview/:id',
     component:ArticlesPagePreviewComponent
   },
+  {
+    path:'top-trainer',
+    component:TopRatedComponent
+  },
+
 
 ];
 
